@@ -26,10 +26,10 @@ jobs:
           cd aggregator
           pip install -r requirements.txt
 
-      # - name: Run script
-      #   run: |
-      #     cd aggregator
-      #     python -u subscribe/collect.py -s
+      - name: Run script
+        run: |
+          cd aggregator
+          python -u subscribe/collect.py -s
 
       - name: Checkout target repo
         uses: actions/checkout@v3
@@ -40,15 +40,15 @@ jobs:
 
       - name: Copy file
         run: |
-            mkdir aggregator/data
-            echo "test----" >> aggregator/data/v2ray.txt
             cp aggregator/data/v2ray.txt target-repo/v2ray.txt
+            cp aggregator/data/clash.yaml target-repo/clash.yaml
+            cp aggregator/data/singbox.json target-repo/singbox.json
 
       - name: Commit and push
         run: |
           cd target-repo
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add v2ray.txt
+          git add v2ray.txt clash.yaml singbox.json
           git commit -m "Auto update v2ray.txt at $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
           git push
