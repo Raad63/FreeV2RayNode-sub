@@ -1,0 +1,52 @@
+name: Auto Fetch and Push V2Ray
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # 每30分钟运行一次
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  fetch-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout aggregator repo
+        uses: actions/checkout@v3
+        with:
+          repository: wzdnzd/aggregator
+          path: aggregator
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          cd aggregator
+          pip install -r requirements.txt
+
+      - name: Run script
+        run: |
+          cd aggregator
+          python subscribe/collect.py
+
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+        with:
+          repository: yorkLiu/FreeV2RayNode
+          token: ${{ secrets.FREEV2RAYNODE_PUSH_TOKEN }}
+          path: target-repo
+
+      - name: Copy file
+        run: |
+          cp aggregator/data/v2ray.txt target-repo/v2ray.txt
+
+      - name: Commit and push
+        run: |
+          cd target-repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2ray.txt
+          git commit -m "Auto update v2ray.txt at $(date -u +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
