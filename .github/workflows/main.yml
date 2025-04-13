@@ -26,10 +26,10 @@ jobs:
           cd aggregator
           pip install -r requirements.txt
 
-      - name: Run script
-        run: |
-          cd aggregator
-          python -u subscribe/collect.py -s
+      # - name: Run script
+      #   run: |
+      #     cd aggregator
+      #     python -u subscribe/collect.py -s
 
       - name: Checkout target repo
         uses: actions/checkout@v3
@@ -40,7 +40,8 @@ jobs:
 
       - name: Copy file
         run: |
-          cp aggregator/data/v2ray.txt target-repo/v2ray.txt
+            echo "test----" >> aggregator/data/v2ray.txt
+            cp aggregator/data/v2ray.txt target-repo/v2ray.txt
 
       - name: Commit and push
         run: |
