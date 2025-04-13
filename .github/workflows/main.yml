@@ -40,7 +40,7 @@ jobs:
 
       - name: Copy file
         run: |
-            mkdir -r aggregator/data
+            mkdir aggregator/data
             echo "test----" >> aggregator/data/v2ray.txt
             cp aggregator/data/v2ray.txt target-repo/v2ray.txt
 
