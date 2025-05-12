@@ -1,80 +1,96 @@
 proxies:
-  - {name: 🇹🇼 台湾 IEPL专线NO1, server: i.needss.top, port: 52103, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001, server: 45.147.201.231, port: 31005, type: hysteria2, password: 55cce9f3-ee75-4795-8df3-3f59a807eb57, auth: 55cce9f3-ee75-4795-8df3-3f59a807eb57, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇬🇧 英国01, server: gya.tangu.win, port: 45634, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇷 阿根廷 IEPL专线NO1, server: i.needss.top, port: 20014, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 IEPL专线NO1, server: i.needss.top, port: 54787, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇵🇹 葡萄牙 IEPL专线NO1, server: sd.needss.top, port: 31001, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡03, server: gya.tangu.win, port: 45627, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇬🇧 英国 IEPL专线NO1, server: sd.needss.top, port: 54774, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度 IEPL专线NO1, server: i.needss.top, port: 15442, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇺🇸 圣何塞5, server: time.is, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇸🇬 新加坡CF, server: time.is, port: 80, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgsg2.zhousi.link}}, udp: true}
-  - {name: 🇯🇵 日本 IEPL专线NO1, server: i.needss.top, port: 20017, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港03, server: gya.tangu.win, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国 IEPL专线 NO1, server: i.needss.top, port: 30028, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 非洲 IEPL专线 NO1, server: i.needss.top, port: 44410, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 IEPL专线NO1, server: i.needss.top, port: 54770, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本1 移动高速, server: 2603:c023:f:8000:e61:f5f8:ac0f:a617, port: 58199, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001, server: 45.147.201.231, port: 20028, type: vmess, uuid: 55cce9f3-ee75-4795-8df3-3f59a807eb57, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇦🇺 澳大利亚 IEPL专线NO1, server: i.needss.top, port: 20011, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港06-备用, server: qqa813.198139.xyz, port: 45640, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡02, server: gya.tangu.win, port: 45637, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港02专线, server: zf-ct.bgblwow.org, port: 43580, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大 IEPL专线 NO1, server: sd.needss.top, port: 45105, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002, server: 45.147.201.231, port: 33072, type: hysteria2, password: 55cce9f3-ee75-4795-8df3-3f59a807eb57, auth: 55cce9f3-ee75-4795-8df3-3f59a807eb57, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 70bace2b-5497-4216-92b7-d2e2f70b3af7, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-001, server: 45.147.201.231, port: 30072, type: hysteria2, password: 55cce9f3-ee75-4795-8df3-3f59a807eb57, auth: 55cce9f3-ee75-4795-8df3-3f59a807eb57, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇻🇳 越南01, server: gya.tangu.win, port: 13642, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇯🇵 日本VULTR1, server: www.visa.com, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇺🇸 美国04, server: gya.tangu.win, port: 38722, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾03-备用, server: qqa813.198139.xyz, port: 11135, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇺🇸 美国02, server: gya.tangu.win, port: 45628, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
-  - {name: 🇹🇼 台湾02-备用, server: qqa813.198139.xyz, port: 11125, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇭🇰 香港01, server: gya.tangu.win, port: 45630, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇯🇵 日本01, server: gya.tangu.win, port: 38726, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本V6, server: 2001:19f0:7001:4c24:5400:5ff:fe2b:b8af, port: 443, type: vless, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: W959HKDLJPaAhQbTLSfP3oMxEeNk0JRJxvDZRrjFeRU, short-id: 0b8881d0}, servername: yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 荷兰 IEPL 隧道 NO1, server: sd.needss.top, port: 20014, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: X 代表使用倍率, server: x 代表使用倍率, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡01专线, server: zf-ct.bgblwow.org, port: 45636, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 70bace2b-5497-4216-92b7-d2e2f70b3af7, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
-  - {name: 🇭🇰 香港04-备用, server: qqa813.198139.xyz, port: 26641, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 IEPL专线NO3, server: i.needss.top, port: 65533, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾01专线, server: zf-ct.bgblwow.org, port: 45632, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇹🇼 台湾04-备用, server: qqa813.198139.xyz, port: 11145, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
-  - {name: 🇹🇼 台湾 IEPL专线NO3, server: i.needss.top, port: 20016, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002, server: 45.147.201.231, port: 23083, type: vmess, uuid: 55cce9f3-ee75-4795-8df3-3f59a807eb57, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇫🇷 法国 CM 隧道NO1, server: sd.needss.top, port: 52100, type: vmess, uuid: 6167d9e1-92f7-485a-9e77-37a83a5daaee, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 43e78062-bade-4487-b662-30b6e2e9e4e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国01, server: gya.tangu.win, port: 45532, type: ss, cipher: chacha20-ietf-poly1305, password: bcc36c50-5bd1-493e-bdc9-876bb3ff9a46, udp: true}
+  - {name: 🇺🇸 美国, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001-1A, server: 45.147.201.231, port: 20028, type: vmess, uuid: 83d81474-2d60-466f-9377-c4139f008916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇹🇼 台湾02-备用, server: qqa813.198139.xyz, port: 11125, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡 IEPL专线NO1, server: i.needss.top, port: 20015, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度 IEPL专线NO1, server: i.needss.top, port: 15442, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 圣何塞1, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇦🇺 澳大利亚 IEPL专线NO1, server: i.needss.top, port: 20011, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001-1C, server: 45.147.201.231, port: 20028, type: vmess, uuid: fcf473a4-625a-4b7a-b8f1-653b328489eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本V, server: bookmyshow.com, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇺🇸 美国02, server: gya.tangu.win, port: 45628, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1B, server: 45.147.201.231, port: 30072, type: hysteria2, password: b80c2600-3da7-4ed7-b206-0760bc3802fe, auth: b80c2600-3da7-4ed7-b206-0760bc3802fe, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1C, server: 45.147.201.231, port: 33072, type: hysteria2, password: fcf473a4-625a-4b7a-b8f1-653b328489eb, auth: fcf473a4-625a-4b7a-b8f1-653b328489eb, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇯🇵 日本01, server: gya.tangu.win, port: 38726, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇹🇼 台湾, server: chiyu.myfczy169.top, port: 50555, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇦🇷 阿根廷 IEPL专线NO1, server: i.needss.top, port: 20014, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾01专线, server: zf-ct.bgblwow.org, port: 45632, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1B, server: 45.147.201.231, port: 23083, type: vmess, uuid: b80c2600-3da7-4ed7-b206-0760bc3802fe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1C, server: 45.147.201.231, port: 31005, type: hysteria2, password: fcf473a4-625a-4b7a-b8f1-653b328489eb, auth: fcf473a4-625a-4b7a-b8f1-653b328489eb, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1C, server: 45.147.201.231, port: 23083, type: vmess, uuid: fcf473a4-625a-4b7a-b8f1-653b328489eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: chiyu.myfczy169.top, port: 13127, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港 IEPL专线NO3, server: i.needss.top, port: 65533, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国 IEPL专线NO1, server: i.needss.top, port: 54787, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 IEPL专线NO1, server: i.needss.top, port: 20017, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 非洲 IEPL专线 NO1, server: i.needss.top, port: 44410, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 圣何塞5, server: time.is, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾03-备用, server: qqa813.198139.xyz, port: 11135, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1A, server: 45.147.201.231, port: 30072, type: hysteria2, password: 83d81474-2d60-466f-9377-c4139f008916, auth: 83d81474-2d60-466f-9377-c4139f008916, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 圣何塞4, server: xiaoqi.yangmie.online, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1A, server: 45.147.201.231, port: 33072, type: hysteria2, password: 83d81474-2d60-466f-9377-c4139f008916, auth: 83d81474-2d60-466f-9377-c4139f008916, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇹🇼 台湾 IEPL专线NO1, server: i.needss.top, port: 52103, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1B, server: 45.147.201.231, port: 33072, type: hysteria2, password: b80c2600-3da7-4ed7-b206-0760bc3802fe, auth: b80c2600-3da7-4ed7-b206-0760bc3802fe, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1C, server: 45.147.201.231, port: 30072, type: hysteria2, password: fcf473a4-625a-4b7a-b8f1-653b328489eb, auth: fcf473a4-625a-4b7a-b8f1-653b328489eb, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港02专线, server: zf-ct.bgblwow.org, port: 43580, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇭🇰 香港06-备用, server: qqa813.198139.xyz, port: 45640, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1A, server: 45.147.201.231, port: 31005, type: hysteria2, password: 83d81474-2d60-466f-9377-c4139f008916, auth: 83d81474-2d60-466f-9377-c4139f008916, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港-1B, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国01, server: gya.tangu.win, port: 45634, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 圣何塞2, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇹🇼 台湾家宽直连 20x, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 153d1c61-f16d-4839-8015-340aaba467bb, udp: true}
+  - {name: 🇸🇬 新加坡01专线, server: zf-ct.bgblwow.org, port: 45636, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇯🇵 日本VULTR1, server: www.visa.com, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jpv.xiaoqi555.xyz, network: ws, ws-opts: {path: /, headers: {Host: jpv.xiaoqi555.xyz}}, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大 IEPL专线 NO1, server: sd.needss.top, port: 45105, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本1 移动高速, server: 2603:c023:f:8000:e61:f5f8:ac0f:a617, port: 58199, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001-1B, server: 45.147.201.231, port: 20028, type: vmess, uuid: b80c2600-3da7-4ed7-b206-0760bc3802fe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002-1A, server: 45.147.201.231, port: 23083, type: vmess, uuid: 83d81474-2d60-466f-9377-c4139f008916, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇻🇳 越南01, server: gya.tangu.win, port: 13642, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇵🇹 葡萄牙 IEPL专线NO1, server: sd.needss.top, port: 31001, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国 CM 隧道NO1, server: sd.needss.top, port: 52100, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡02, server: gya.tangu.win, port: 45637, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇸🇬 新加坡03, server: gya.tangu.win, port: 45627, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港01, server: gya.tangu.win, port: 45630, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国01, server: gya.tangu.win, port: 45532, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 圣何塞3, server: bestcf.top, port: 443, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: shs111.kejixiaoqi666.store, network: ws, ws-opts: {path: /, headers: {Host: shs111.kejixiaoqi666.store}}, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国 IEPL专线NO1, server: i.needss.top, port: 54770, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港03, server: gya.tangu.win, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇳🇱 荷兰 IEPL 隧道 NO1, server: sd.needss.top, port: 20014, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-1A, server: chiyu.myfczy169.top, port: 54016, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇹🇼 台湾 IEPL专线NO3, server: i.needss.top, port: 20016, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本V6, server: 2001:19f0:7001:4c24:5400:5ff:fe2b:b8af, port: 443, type: vless, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: W959HKDLJPaAhQbTLSfP3oMxEeNk0JRJxvDZRrjFeRU, short-id: 0b8881d0}, servername: yahoo.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾04-备用, server: qqa813.198139.xyz, port: 11145, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇬🇧 英国 IEPL专线NO1, server: sd.needss.top, port: 54774, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国04, server: gya.tangu.win, port: 38722, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇹🇭 泰国 IEPL专线 NO1, server: i.needss.top, port: 30028, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: X 代表使用倍率, server: x 代表使用倍率, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇸🇬 新加坡CF, server: time.is, port: 80, type: vmess, uuid: 153d1c61-f16d-4839-8015-340aaba467bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mgsg2.zhousi.link}}, udp: true}
+  - {name: 🇰🇷 韩国 IEPL专线NO1, server: i.needss.top, port: 20021, type: vmess, uuid: 370ffd7b-d563-4172-a7dd-7f61a45528bd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国, server: chiyu.myfczy169.top, port: 26480, type: ss, cipher: chacha20-ietf-poly1305, password: 887f01da-5b52-4dff-a80f-efe3380ac35f, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: ab7ee84c-f666-4f44-a538-b8ae1b46898e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港04-备用, server: qqa813.198139.xyz, port: 26641, type: ss, cipher: chacha20-ietf-poly1305, password: 5e866b60-d4e9-46d8-a25e-c5e9b53aafd1, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1B, server: 45.147.201.231, port: 31005, type: hysteria2, password: b80c2600-3da7-4ed7-b206-0760bc3802fe, auth: b80c2600-3da7-4ed7-b206-0760bc3802fe, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
