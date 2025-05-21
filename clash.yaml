@@ -1,42 +1,30 @@
 proxies:
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001-1A, server: 45.147.201.231, port: 20033, type: vmess, uuid: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1B, server: 45.147.201.231, port: 30073, type: hysteria2, password: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, auth: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1B, server: 45.147.201.231, port: 31005, type: hysteria2, password: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, auth: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1B, server: 45.147.201.231, port: 33075, type: hysteria2, password: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, auth: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001-1C, server: 45.147.201.231, port: 20033, type: vmess, uuid: 33ce44c9-6149-4823-b5fe-db3a709a3995, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1A, server: 45.147.201.231, port: 23087, type: vmess, uuid: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1C, server: 45.147.201.231, port: 23087, type: vmess, uuid: 33ce44c9-6149-4823-b5fe-db3a709a3995, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1C, server: 45.147.201.231, port: 31005, type: hysteria2, password: 33ce44c9-6149-4823-b5fe-db3a709a3995, auth: 33ce44c9-6149-4823-b5fe-db3a709a3995, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1A, server: 45.147.201.231, port: 30073, type: hysteria2, password: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, auth: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1A, server: 45.147.201.231, port: 33075, type: hysteria2, password: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, auth: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1C, server: 45.147.201.231, port: 33075, type: hysteria2, password: 33ce44c9-6149-4823-b5fe-db3a709a3995, auth: 33ce44c9-6149-4823-b5fe-db3a709a3995, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-002-1B, server: 45.147.201.231, port: 23087, type: vmess, uuid: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-001-1B, server: 45.147.201.231, port: 20033, type: vmess, uuid: 0b75e8a9-abb9-408f-96d4-4db2be501bcf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001-1A, server: 45.147.201.231, port: 31005, type: hysteria2, password: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, auth: ae8989c0-bdd6-423e-ba02-e6ec0b6b68a7, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-001-1C, server: 45.147.201.231, port: 30073, type: hysteria2, password: 33ce44c9-6149-4823-b5fe-db3a709a3995, auth: 33ce44c9-6149-4823-b5fe-db3a709a3995, up: 50, down: 50, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 181a35cc-1c3e-4dc7-a2ea-7e718777f953, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡-FREE优化-CDN | 2x, server: tiamo2.tiamocloud.us.kg, port: 80, type: vmess, uuid: ecc620fd-f486-4c75-80bb-9adfecf6a4d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tiamo2.tiamocloud.us.kg}}, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇧🇷 巴西-FREE优化-CDN | 2x, server: tiamo3.tiamocloud.us.kg, port: 80, type: vmess, uuid: ecc620fd-f486-4c75-80bb-9adfecf6a4d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tiamo3.tiamocloud.us.kg}}, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇳🇱 荷兰-FREE优化-CDN | 2x, server: tiamo1.tiamocloud.us.kg, port: 80, type: vmess, uuid: ecc620fd-f486-4c75-80bb-9adfecf6a4d1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tiamo1.tiamocloud.us.kg}}, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: f66fd227-1cd8-4609-b506-217ccbc8e481, alterId: 0, cipher: auto, tls: false, udp: true}
