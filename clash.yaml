@@ -1,85 +1,81 @@
 proxies:
-  - {name: 🇯🇵 日本03 专线-1B, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港02 专线-1B, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 NETFLIX03 HK-1A, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港-1A, server: ddns.kuaiyun1.cn, port: 32975, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇮🇩 印度尼西亚, server: ddns.kuaiyun1.cn, port: 22665, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇺🇸 美国1, server: ddns.kuaiyun1.cn, port: 29760, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8c6dcd23-64c5-44ff-884c-0cfbe3f2b80c, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本01 专线-1A, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇰🇷 韩国, server: ddns.kuaiyun1.cn, port: 30967, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇺🇸 美国05 专线-1A, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港03 专线-1B, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇺🇸 美国01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇺🇸 美国-纽约-001, server: 45.136.245.177, port: 22085, type: vmess, uuid: 0e121858-93fe-472e-a38a-5333ae7e483b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-002, server: 45.136.245.177, port: 33079, type: hysteria2, password: 0e121858-93fe-472e-a38a-5333ae7e483b, auth: 0e121858-93fe-472e-a38a-5333ae7e483b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港04 专线-1A, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇸🇬 新加坡01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇺🇸 美国05 专线-1B, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇭🇰 香港05 专线-1B, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国06 国外专用-1A, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-003, server: 45.136.245.177, port: 25017, type: vmess, uuid: 0e121858-93fe-472e-a38a-5333ae7e483b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 日本04 专线-1A, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国03 专线-1A, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 NETFLIX03 HK-1B, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8c6dcd23-64c5-44ff-884c-0cfbe3f2b80c, udp: true}
-  - {name: 🇸🇬 新加坡, server: ddns.kuaiyun1.cn, port: 17869, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇭🇰 香港-1B, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国-拉斯维加斯-HY-003, server: 45.136.245.177, port: 80, type: hysteria2, password: 0e121858-93fe-472e-a38a-5333ae7e483b, auth: 0e121858-93fe-472e-a38a-5333ae7e483b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
-  - {name: 🇹🇼 台湾01 专线-1A, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港02 专线-1A, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇺🇸 美国-纽约-HY-001, server: 45.136.245.177, port: 31008, type: hysteria2, password: 0e121858-93fe-472e-a38a-5333ae7e483b, auth: 0e121858-93fe-472e-a38a-5333ae7e483b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国04 专线-1B, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇯🇵 日本02 专线-1B, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇭🇰 NETFLIX02 HK-1A, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港2, server: ddns.kuaiyun1.cn, port: 15815, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇯🇵 日本03 专线-1A, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡2, server: ddns.kuaiyun1.cn, port: 43147, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国07 国外专用-1A, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国02 专线-1B, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇹🇭 泰国, server: ddns.kuaiyun1.cn, port: 48494, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 NETFLIX02 HK-1B, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇹🇼 台湾01 专线-1B, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇺🇸 美国02 专线-1A, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇸🇬 NETFLIX04 SG-1A, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇭🇰 香港04 专线-1B, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇭🇰 香港05 专线-1A, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国06 国外专用-1B, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇯🇵 日本2, server: ddns.kuaiyun1.cn, port: 39030, type: ss, cipher: aes-256-gcm, password: 06af399e-71f8-44c7-9ae6-49e8fc9e8a3b, udp: true}
-  - {name: 🇺🇸 美国04 专线-1A, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇯🇵 日本04 专线-1B, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇯🇵 日本01 专线-1B, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇭🇰 香港03 专线-1A, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇺🇸 美国01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本02 专线-1A, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇺🇸 美国03 专线-1B, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇸🇬 NETFLIX04 SG-1B, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇺🇸 美国07 国外专用-1B, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 342cbf98-c4f4-41ed-9d6f-463f6c563552, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 NETFLIX01 TW-1A, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: 1358a759-199a-4012-8c78-0095e9fe0713, udp: true}
-  - {name: 🇹🇼 NETFLIX01 TW-1B, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: a6dbdeb7-73e9-440a-8b73-13ed28536652, udp: true}
+  - {name: 🇯🇵 日本04 专线-1B, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 NETFLIX01 TW-1A, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1A, server: 45.136.245.177, port: 80, type: hysteria2, password: 4d50041d-6c5e-4502-98e3-451e86b53dad, auth: 4d50041d-6c5e-4502-98e3-451e86b53dad, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国03 专线-1A, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 NETFLIX03 HK-1B, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1A, server: 45.136.245.177, port: 33079, type: hysteria2, password: 4d50041d-6c5e-4502-98e3-451e86b53dad, auth: 4d50041d-6c5e-4502-98e3-451e86b53dad, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 NETFLIX04 SG-1A, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国04 专线-1B, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 NETFLIX03 HK-1A, server: cu1-zz.moonwang.xyz, port: 38445, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇹🇼 台湾01 专线-1A, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇺🇸 美国02 专线-1B, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 香港04 专线-1A, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇺🇸 美国06 国外专用-1B, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 香港02 专线-1B, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 NETFLIX02 HK-1A, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本02 专线-1A, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 香港02 专线-1A, server: cm33-zz.moonwang.xyz, port: 48446, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-003-1B, server: 45.136.245.177, port: 80, type: hysteria2, password: a07faa2a-6683-411f-a80e-3fcfaab4c829, auth: a07faa2a-6683-411f-a80e-3fcfaab4c829, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国06 国外专用-1A, server: us4.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1A, server: 45.136.245.177, port: 22085, type: vmess, uuid: 4d50041d-6c5e-4502-98e3-451e86b53dad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1c5001ca-6c97-4d19-afec-589a58863c6f, udp: true}
+  - {name: 🇺🇸 美国05 专线-1B, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇸🇬 NETFLIX04 SG-1B, server: cm22-zz.moonwang.xyz, port: 38446, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1c5001ca-6c97-4d19-afec-589a58863c6f, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1B, server: 45.136.245.177, port: 31008, type: hysteria2, password: a07faa2a-6683-411f-a80e-3fcfaab4c829, auth: a07faa2a-6683-411f-a80e-3fcfaab4c829, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 NETFLIX01 TW-1B, server: cm33-zz.moonwang.xyz, port: 48444, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国03 专线-1B, server: cu1-zz.moonwang.xyz, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国02 专线-1A, server: cm22-zz.moonwang.xyz, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国04 专线-1A, server: cm22-zz.moonwang.xyz, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国07 国外专用-1A, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇯🇵 日本02 专线-1B, server: cm33-zz.moonwang.xyz, port: 28444, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1A, server: 45.136.245.177, port: 25017, type: vmess, uuid: 4d50041d-6c5e-4502-98e3-451e86b53dad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-001-1B, server: 45.136.245.177, port: 22085, type: vmess, uuid: a07faa2a-6683-411f-a80e-3fcfaab4c829, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本03 专线-1A, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本03 专线-1B, server: cm33-zz.moonwang.xyz, port: 18443, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 香港03 专线-1A, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 香港03 专线-1B, server: cm22-zz.moonwang.xyz, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国01 专线-1A, server: cm22-zz.moonwang.xyz, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 香港04 专线-1B, server: cm33-zz.moonwang.xyz, port: 48443, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国05 专线-1A, server: cu1-zz.moonwang.xyz, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇭🇰 香港05 专线-1A, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇹🇼 台湾01 专线-1B, server: cm22-zz.moonwang.xyz, port: 34111, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 NETFLIX02 HK-1B, server: cm33-zz.moonwang.xyz, port: 38444, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇭🇰 香港05 专线-1B, server: cm22-zz.moonwang.xyz, port: 40007, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001-1A, server: 45.136.245.177, port: 31008, type: hysteria2, password: 4d50041d-6c5e-4502-98e3-451e86b53dad, auth: 4d50041d-6c5e-4502-98e3-451e86b53dad, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇯🇵 日本04 专线-1A, server: cm22-zz.moonwang.xyz, port: 28445, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡01 专线-1B, server: cm22-zz.moonwang.xyz, port: 40013, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-003-1B, server: 45.136.245.177, port: 25017, type: vmess, uuid: a07faa2a-6683-411f-a80e-3fcfaab4c829, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 日本01 专线-1B, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国07 国外专用-1B, server: us5.moon6.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: afc46dc8-a3fc-46e9-a16e-b3e71e4ba1ee, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 58cf5c32-8f2e-47b1-8e38-552d0d316ff3, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002-1B, server: 45.136.245.177, port: 33079, type: hysteria2, password: a07faa2a-6683-411f-a80e-3fcfaab4c829, auth: a07faa2a-6683-411f-a80e-3fcfaab4c829, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇯🇵 日本01 专线-1A, server: cm33-zz.moonwang.xyz, port: 28443, type: ss, cipher: chacha20-ietf-poly1305, password: 2983ae99-209f-4c19-a114-2a806db3d772, udp: true}
