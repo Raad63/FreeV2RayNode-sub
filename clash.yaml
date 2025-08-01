@@ -1,40 +1,40 @@
 proxies:
-  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US-GRPC-01, server: us-elegang-aws-100.77vpn.com, port: 1083, type: vmess, uuid: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, alterId: 0, cipher: auto, tls: true, servername: us-elegang-aws-100.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 03539d93-68be-462b-93ea-53a1ba08c093, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-SSR-01, server: hk-aws-171.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, udp: true}
-  - {name: 🇭🇰 香港-GRPC-01, server: hk-aws-171.77vpn.com, port: 1083, type: vmess, uuid: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US-VMESS, server: us-elegang-aws-100.77vpn.com, port: 1082, type: vmess, uuid: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us-elegang-aws-100.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: us-elegang-aws-100.77vpn.com}}, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 HK-US-SSR-01, server: 16.162.50.142, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 03539d93-68be-462b-93ea-53a1ba08c093, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US-SSR-01, server: us-elegang-aws-100.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US-TROJAN-01, server: us-elegang-aws-100.77vpn.com, port: 1080, type: trojan, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, sni: us-elegang-aws-100.77vpn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 SHANGHAI-HK-SSR-01, server: 115.120.244.50, port: 20101, type: ss, cipher: chacha20-ietf-poly1305, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, udp: true}
-  - {name: 🇭🇰 香港-TROJAN-01, server: hk-aws-171.77vpn.com, port: 1080, type: trojan, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, sni: hk-aws-171.77vpn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-VMESS, server: hk-aws-171.77vpn.com, port: 1082, type: vmess, uuid: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: hk-aws-171.77vpn.com}}, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 SHANGHAI-HK-US-SSR-01, server: 115.120.244.50, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 281a8b85-91c8-4b0f-aff9-10bd4a46325e, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 9a697f2f-e056-4e11-af5a-f7b4ac4e44ac, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 SHANGHAI-HK-US-SSR-01, server: 115.120.244.50, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-GRPC-01, server: hk-aws-171.77vpn.com, port: 1083, type: vmess, uuid: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 US-SSR-01, server: us-elegang-aws-100.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 US-GRPC-01, server: us-elegang-aws-100.77vpn.com, port: 1083, type: vmess, uuid: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, alterId: 0, cipher: auto, tls: true, servername: us-elegang-aws-100.77vpn.com, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 🇭🇰 香港-SSR-01, server: hk-aws-171.77vpn.com, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, udp: true}
+  - {name: 🇭🇰 SHANGHAI-HK-SSR-01, server: 115.120.244.50, port: 20101, type: ss, cipher: chacha20-ietf-poly1305, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8dd45615-59d4-445d-aad1-8a82e3212b5c, udp: true}
+  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 8dd45615-59d4-445d-aad1-8a82e3212b5c, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-TROJAN-01, server: hk-aws-171.77vpn.com, port: 1080, type: trojan, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, sni: hk-aws-171.77vpn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 US-VMESS, server: us-elegang-aws-100.77vpn.com, port: 1082, type: vmess, uuid: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us-elegang-aws-100.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: us-elegang-aws-100.77vpn.com}}, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-VMESS, server: hk-aws-171.77vpn.com, port: 1082, type: vmess, uuid: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk-aws-171.77vpn.com, network: ws, ws-opts: {path: /77vpn, headers: {Host: hk-aws-171.77vpn.com}}, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 5000585e-c6a1-4d4a-950c-bbac693bcfd1, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 US-TROJAN-01, server: us-elegang-aws-100.77vpn.com, port: 1080, type: trojan, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, sni: us-elegang-aws-100.77vpn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK-US-SSR-01, server: 16.162.50.142, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4639c87f-f593-4d04-8c7e-3f8c3ccbaf30, udp: true}
